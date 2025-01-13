@@ -1,5 +1,7 @@
 * Submission
 
+最終的には [[https://github.com/gksato/haskell-atcoder-server-gen][server-gen]] への PR にしたいです
+
 ** 作業環境
 
 - NixOS, GHC 9.8.4, Cabal 3.12.1.0
@@ -7,11 +9,11 @@
 
 ** メモ
 
-*** =cabal.project=
+*** [[./cabal.project]]
 
 - コンパイルできなかったので、 =clock= から =llvm= フラグを削除した
 
-*** =submisson.cabal=
+*** [[./submission.cabal]]
 
 - 追加の依存
   - =ac-library-hs=
@@ -23,14 +25,13 @@
   - =witherable=
 
 - Transitive dependencies の追加
-  - 多数
-
-- バージョン未指定の状態でビルドし、 =plan.json= を下にバージョンを更新
+  - 多数 ([[https://github.com/toyboot4e/submission/commit/5e31118e57d5516d659a8284dff6b9635376a9eb][該当のコミット]])
 
 *** [[./gen/license-report.md]]
 
-- =cabal-plan license-report= により生成
-- [[./generate.sh]] により[[./license-report-parsed.txt]] より [[./license-report-parsed-libraries.txt]] を生成
+- バージョン未指定の状態でビルドし、 =cabal-plan license-report= により生成した
+  - なぜか =attoparsec= が 2 回出現する
+- [[./generate.sh]] により[[./gen/license-report-parsed.txt]] および [[./gen/license-report-parsed-libraries.txt]] を生成した
 
 *** [[./gen/installscript.toml]]
 
@@ -39,7 +40,7 @@
   - [[https://opensource.org/license/bsd-3-clause][BSD-3-Clause]] と中身はほぼ同一なため、 BSD-3-Clause として良さそう
 
 - 依存ライブラリのライセンス
-  - =plan.json= を下に機械的に生成
+  - [[./generate.sh]] により生成したライセンス一覧を貼り付けた
 
 - その他
   - BLAS 等も明示が必要？　未確認
