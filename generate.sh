@@ -3,12 +3,14 @@
 # 事前準備:
 # $ cabal-plan license-report > gen/license-report.md
 
-# <package> <version> <license> 形式を生成
+# <package> <version> <package-url> <license> <license-url> 形式を生成
+# $1        $2        $3            $4        $5
 cat gen/license-report.md |
   grep '^|' |
   awk -F'|' '{print $2 "\t" $3 "\t" $4}' |
   tr -d '*`[] ' |
-  sed 's;([^)]*);;g' |
+  sed 's;(;\t;g' |
+  tr -d '()' |
   grep -v Name |
   grep -v '\---' |
   sort -V |

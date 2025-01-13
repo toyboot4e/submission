@@ -6,7 +6,7 @@
 
 {
 printf\
-  "library.%s = { license = [\n    { name = '%s', url = 'https://hackage.haskell.org/package/%s-%s/src/LICENSE' },\n], version = '%s' }\n",\
-  $1, $3, $1, $2, $2
+  "library.%s = { license = [\n    { name = '%s', url = '%s' },\n], version = '%s' }\n",\
+    $1, $1, $5, $2
 }
 

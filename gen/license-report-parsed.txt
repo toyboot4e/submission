@@ -1,130 +1,130 @@
-Cabal	3.10.3.0	BSD-3-Clause
-Cabal-syntax	3.10.3.0	BSD-3-Clause
-OneTuple	0.4.2	BSD-3-Clause
-QuickCheck	2.15.0.1	BSD-3-Clause
-StateVar	1.2.2	BSD-3-Clause
-ac-library-hs	1.1.0.0	CC0-1.0
-adjunctions	4.4.2	BSD-3-Clause
-ansi-terminal	1.1.2	BSD-3-Clause
-ansi-terminal-types	1.1	BSD-3-Clause
-array	0.5.8.0	BSD-3-Clause
-assoc	1.1.1	BSD-3-Clause
-atomic-primops	0.8.8	BSD-3-Clause
-attoparsec	0.14.4	BSD-3-Clause
-attoparsec	0.14.4	BSD-3-Clause
-base	4.19.2.0	BSD-3-Clause
-base-orphans	0.9.3	MIT
-bifunctors	5.6.2	BSD-3-Clause
-binary	0.8.9.1	BSD-3-Clause
-bitvec	1.1.5.0	BSD-3-Clause
-blaze-builder	0.4.2.3	BSD-3-Clause
-blaze-html	0.9.2.0	BSD-3-Clause
-blaze-markup	0.8.3.0	BSD-3-Clause
-bytestring	0.12.1.0	BSD-3-Clause
-call-stack	0.4.0	MIT
-case-insensitive	1.2.1.0	BSD-3-Clause
-charset	0.3.11	BSD-3-Clause
-clock	0.8.4	BSD-3-Clause
-colour	2.3.6	MIT
-comonad	5.0.9	BSD-3-Clause
-containers	0.6.8	BSD-3-Clause
-contravariant	1.5.5	BSD-3-Clause
-data-default	0.8.0.0	BSD-3-Clause
-data-default-class	0.2.0.0	BSD-3-Clause
-deepseq	1.5.1.0	BSD-3-Clause
-directory	1.3.8.5	BSD-3-Clause
-distributive	0.6.2.1	BSD-3-Clause
-exceptions	0.10.7	BSD-3-Clause
-extra	1.8	BSD-3-Clause
-fgl	5.8.3.0	BSD-3-Clause
-filepath	1.4.301.0	BSD-3-Clause
-fingertree	0.1.5.0	BSD-3-Clause
-foldl	1.4.18	BSD-3-Clause
-free	5.2	BSD-3-Clause
-ghc-bignum	1.3	BSD-3-Clause
-ghc-boot-th	9.8.4	MISSING
-ghc-prim	0.11.0	BSD-3-Clause
-hashable	1.5.0.0	BSD-3-Clause
-heaps	0.4.1	BSD-3-Clause
-hmatrix	0.20.2	BSD-3-Clause
-ilist	0.4.0.1	MPL-2.0
-indexed-traversable	0.1.4	BSD-2-Clause
-indexed-traversable-instances	0.1.2	BSD-2-Clause
-integer-gmp	1.1	BSD-3-Clause
-integer-logarithms	1.0.4	MIT
-invariant	0.6.4	BSD-2-Clause
-kan-extensions	5.2.6	BSD-3-Clause
-lens	5.3.3	BSD-2-Clause
-linear-base	0.4.0	MIT
-linear-generics	0.2.3	BSD-3-Clause
-list-t	1.0.5.7	MIT
-logict	0.8.2.0	BSD-3-Clause
-massiv	1.0.4.0	BSD-3-Clause
-math-functions	0.3.4.4	BSD-2-Clause
-megaparsec	9.7.0	BSD-2-Clause
-mmorph	1.2.0	BSD-3-Clause
-monad-control	1.0.3.1	BSD-3-Clause
-monad-memo	0.5.4	BSD-3-Clause
-mono-traversable	1.0.21.0	MIT
-mtl	2.3.1	BSD-3-Clause
-mutable-containers	0.3.4.1	MIT
-mwc-random	0.15.1.0	BSD-2-Clause
-os-string	2.0.7	BSD-3-Clause
-parallel	3.2.2.0	BSD-3-Clause
-parsec	3.1.17.0	BSD-2-Clause
-parsers	0.12.12	BSD-3-Clause
-parser-combinators	1.3.0	BSD-3-Clause
-prettyprinter	1.7.1	BSD-2-Clause
-prettyprinter-ansi-terminal	1.1.3	BSD-2-Clause
-pretty	1.1.3.6	BSD-3-Clause
-primitive	0.9.0.0	BSD-3-Clause
-process	1.6.25.0	BSD-3-Clause
-profunctors	5.6.2	BSD-3-Clause
-psqueues	0.2.8.0	BSD-3-Clause
-pvar	1.0.0.0	BSD-3-Clause
-random	1.2.1.3	BSD-3-Clause
-reducers	3.12.5	BSD-3-Clause
-reflection	2.1.9	BSD-3-Clause
-regex-base	0.94.0.2	BSD-3-Clause
-regex-tdfa	1.3.2.2	BSD-3-Clause
-safe-exceptions	0.1.7.4	MIT
-scheduler	2.0.0.1	BSD-3-Clause
-scientific	0.3.8.0	BSD-3-Clause
-semialign	1.3.1	BSD-3-Clause
-semigroupoids	6.0.1	BSD-2-Clause
-semigroups	0.20	BSD-3-Clause
-splitmix	0.1.1	BSD-3-Clause
-split	0.2.5	BSD-3-Clause
-stm	2.5.3.1	BSD-3-Clause
-storable-complex	0.2.3.0	BSD-3-Clause
-storable-record	0.0.7	BSD-3-Clause
-storable-tuple	0.1	BSD-3-Clause
-strict	0.5.1	BSD-3-Clause
-strict-lens	0.4.1	BSD-3-Clause
-tagged	0.8.9	BSD-3-Clause
-template-haskell	2.21.0.0	BSD-3-Clause
-text	2.1.1	BSD-2-Clause
-tf-random	0.5	BSD-3-Clause
-these	1.2.1	BSD-3-Clause
-these-lens	1.0.2	BSD-3-Clause
-th-abstraction	0.7.1.0	ISC
-time	1.12.2	BSD-2-Clause
-transformers	0.6.1.0	BSD-3-Clause
-transformers-base	0.4.6	BSD-3-Clause
-transformers-compat	0.7.2	BSD-3-Clause
-trifecta	2.1.4	BSD-3-Clause
-unboxing-vector	0.2.0.0	BSD-3-Clause
-unix	2.8.6.0	BSD-3-Clause
-unliftio-core	0.2.1.0	MIT
-unordered-containers	0.2.20	BSD-3-Clause
-utf8-string	1.0.2	BSD-3-Clause
-utility-ht	0.0.17.2	BSD-3-Clause
-vector	0.13.2.0	BSD-3-Clause
-vector-algorithms	0.9.0.3	BSD-3-Clause
-vector-split	1.0.0.3	MIT
-vector-stream	0.1.0.1	BSD-3-Clause
-vector-th-unbox	0.2.2	BSD-3-Clause
-void	0.7.3	BSD-3-Clause
-wide-word	0.1.6.0	BSD-2-Clause
-witherable	0.5	BSD-3-Clause
-xhtml	3000.2.2.1	BSD-3-Clause
+Cabal	3.10.3.0	http://hackage.haskell.org/package/Cabal-3.10.3.0	BSD-3-Clause	http://hackage.haskell.org/package/Cabal-3.10.3.0/src/LICENSE
+Cabal-syntax	3.10.3.0	http://hackage.haskell.org/package/Cabal-syntax-3.10.3.0	BSD-3-Clause	http://hackage.haskell.org/package/Cabal-syntax-3.10.3.0/src/LICENSE
+OneTuple	0.4.2	http://hackage.haskell.org/package/OneTuple-0.4.2	BSD-3-Clause	http://hackage.haskell.org/package/OneTuple-0.4.2/src/LICENSE
+QuickCheck	2.15.0.1	http://hackage.haskell.org/package/QuickCheck-2.15.0.1	BSD-3-Clause	http://hackage.haskell.org/package/QuickCheck-2.15.0.1/src/LICENSE
+StateVar	1.2.2	http://hackage.haskell.org/package/StateVar-1.2.2	BSD-3-Clause	http://hackage.haskell.org/package/StateVar-1.2.2/src/LICENSE
+ac-library-hs	1.1.0.0	http://hackage.haskell.org/package/ac-library-hs-1.1.0.0	CC0-1.0	http://hackage.haskell.org/package/ac-library-hs-1.1.0.0/src/LICENSE
+adjunctions	4.4.2	http://hackage.haskell.org/package/adjunctions-4.4.2	BSD-3-Clause	http://hackage.haskell.org/package/adjunctions-4.4.2/src/LICENSE
+ansi-terminal	1.1.2	http://hackage.haskell.org/package/ansi-terminal-1.1.2	BSD-3-Clause	http://hackage.haskell.org/package/ansi-terminal-1.1.2/src/LICENSE
+ansi-terminal-types	1.1	http://hackage.haskell.org/package/ansi-terminal-types-1.1	BSD-3-Clause	http://hackage.haskell.org/package/ansi-terminal-types-1.1/src/LICENSE
+array	0.5.8.0	http://hackage.haskell.org/package/array-0.5.8.0	BSD-3-Clause	http://hackage.haskell.org/package/array-0.5.8.0/src/LICENSE
+assoc	1.1.1	http://hackage.haskell.org/package/assoc-1.1.1	BSD-3-Clause	http://hackage.haskell.org/package/assoc-1.1.1/src/LICENSE
+atomic-primops	0.8.8	http://hackage.haskell.org/package/atomic-primops-0.8.8	BSD-3-Clause	http://hackage.haskell.org/package/atomic-primops-0.8.8/src/LICENSE
+attoparsec	0.14.4	http://hackage.haskell.org/package/attoparsec-0.14.4	BSD-3-Clause	http://hackage.haskell.org/package/attoparsec-0.14.4/src/LICENSE
+attoparsec	0.14.4	http://hackage.haskell.org/package/attoparsec-0.14.4	BSD-3-Clause	http://hackage.haskell.org/package/attoparsec-0.14.4/src/LICENSE
+base	4.19.2.0	http://hackage.haskell.org/package/base-4.19.2.0	BSD-3-Clause	http://hackage.haskell.org/package/base-4.19.2.0/src/LICENSE
+base-orphans	0.9.3	http://hackage.haskell.org/package/base-orphans-0.9.3	MIT	http://hackage.haskell.org/package/base-orphans-0.9.3/src/LICENSE
+bifunctors	5.6.2	http://hackage.haskell.org/package/bifunctors-5.6.2	BSD-3-Clause	http://hackage.haskell.org/package/bifunctors-5.6.2/src/LICENSE
+binary	0.8.9.1	http://hackage.haskell.org/package/binary-0.8.9.1	BSD-3-Clause	http://hackage.haskell.org/package/binary-0.8.9.1/src/LICENSE
+bitvec	1.1.5.0	http://hackage.haskell.org/package/bitvec-1.1.5.0	BSD-3-Clause	http://hackage.haskell.org/package/bitvec-1.1.5.0/src/LICENSE
+blaze-builder	0.4.2.3	http://hackage.haskell.org/package/blaze-builder-0.4.2.3	BSD-3-Clause	http://hackage.haskell.org/package/blaze-builder-0.4.2.3/src/LICENSE
+blaze-html	0.9.2.0	http://hackage.haskell.org/package/blaze-html-0.9.2.0	BSD-3-Clause	http://hackage.haskell.org/package/blaze-html-0.9.2.0/src/LICENSE
+blaze-markup	0.8.3.0	http://hackage.haskell.org/package/blaze-markup-0.8.3.0	BSD-3-Clause	http://hackage.haskell.org/package/blaze-markup-0.8.3.0/src/LICENSE
+bytestring	0.12.1.0	http://hackage.haskell.org/package/bytestring-0.12.1.0	BSD-3-Clause	http://hackage.haskell.org/package/bytestring-0.12.1.0/src/LICENSE
+call-stack	0.4.0	http://hackage.haskell.org/package/call-stack-0.4.0	MIT	http://hackage.haskell.org/package/call-stack-0.4.0/src/LICENSE
+case-insensitive	1.2.1.0	http://hackage.haskell.org/package/case-insensitive-1.2.1.0	BSD-3-Clause	http://hackage.haskell.org/package/case-insensitive-1.2.1.0/src/LICENSE
+charset	0.3.11	http://hackage.haskell.org/package/charset-0.3.11	BSD-3-Clause	http://hackage.haskell.org/package/charset-0.3.11/src/LICENSE
+clock	0.8.4	http://hackage.haskell.org/package/clock-0.8.4	BSD-3-Clause	http://hackage.haskell.org/package/clock-0.8.4/src/LICENSE
+colour	2.3.6	http://hackage.haskell.org/package/colour-2.3.6	MIT	http://hackage.haskell.org/package/colour-2.3.6/src/LICENSE
+comonad	5.0.9	http://hackage.haskell.org/package/comonad-5.0.9	BSD-3-Clause	http://hackage.haskell.org/package/comonad-5.0.9/src/LICENSE
+containers	0.6.8	http://hackage.haskell.org/package/containers-0.6.8	BSD-3-Clause	http://hackage.haskell.org/package/containers-0.6.8/src/LICENSE
+contravariant	1.5.5	http://hackage.haskell.org/package/contravariant-1.5.5	BSD-3-Clause	http://hackage.haskell.org/package/contravariant-1.5.5/src/LICENSE
+data-default	0.8.0.0	http://hackage.haskell.org/package/data-default-0.8.0.0	BSD-3-Clause	http://hackage.haskell.org/package/data-default-0.8.0.0/src/LICENSE
+data-default-class	0.2.0.0	http://hackage.haskell.org/package/data-default-class-0.2.0.0	BSD-3-Clause	http://hackage.haskell.org/package/data-default-class-0.2.0.0/src/LICENSE
+deepseq	1.5.1.0	http://hackage.haskell.org/package/deepseq-1.5.1.0	BSD-3-Clause	http://hackage.haskell.org/package/deepseq-1.5.1.0/src/LICENSE
+directory	1.3.8.5	http://hackage.haskell.org/package/directory-1.3.8.5	BSD-3-Clause	http://hackage.haskell.org/package/directory-1.3.8.5/src/LICENSE
+distributive	0.6.2.1	http://hackage.haskell.org/package/distributive-0.6.2.1	BSD-3-Clause	http://hackage.haskell.org/package/distributive-0.6.2.1/src/LICENSE
+exceptions	0.10.7	http://hackage.haskell.org/package/exceptions-0.10.7	BSD-3-Clause	http://hackage.haskell.org/package/exceptions-0.10.7/src/LICENSE
+extra	1.8	http://hackage.haskell.org/package/extra-1.8	BSD-3-Clause	http://hackage.haskell.org/package/extra-1.8/src/LICENSE
+fgl	5.8.3.0	http://hackage.haskell.org/package/fgl-5.8.3.0	BSD-3-Clause	http://hackage.haskell.org/package/fgl-5.8.3.0/src/LICENSE
+filepath	1.4.301.0	http://hackage.haskell.org/package/filepath-1.4.301.0	BSD-3-Clause	http://hackage.haskell.org/package/filepath-1.4.301.0/src/LICENSE
+fingertree	0.1.5.0	http://hackage.haskell.org/package/fingertree-0.1.5.0	BSD-3-Clause	http://hackage.haskell.org/package/fingertree-0.1.5.0/src/LICENSE
+foldl	1.4.18	http://hackage.haskell.org/package/foldl-1.4.18	BSD-3-Clause	http://hackage.haskell.org/package/foldl-1.4.18/src/LICENSE
+free	5.2	http://hackage.haskell.org/package/free-5.2	BSD-3-Clause	http://hackage.haskell.org/package/free-5.2/src/LICENSE
+ghc-bignum	1.3	http://hackage.haskell.org/package/ghc-bignum-1.3	BSD-3-Clause	http://hackage.haskell.org/package/ghc-bignum-1.3/src/LICENSE
+ghc-boot-th	9.8.4	http://hackage.haskell.org/package/ghc-boot-th-9.8.4	MISSING
+ghc-prim	0.11.0	http://hackage.haskell.org/package/ghc-prim-0.11.0	BSD-3-Clause	http://hackage.haskell.org/package/ghc-prim-0.11.0/src/LICENSE
+hashable	1.5.0.0	http://hackage.haskell.org/package/hashable-1.5.0.0	BSD-3-Clause	http://hackage.haskell.org/package/hashable-1.5.0.0/src/LICENSE
+heaps	0.4.1	http://hackage.haskell.org/package/heaps-0.4.1	BSD-3-Clause	http://hackage.haskell.org/package/heaps-0.4.1/src/LICENSE
+hmatrix	0.20.2	http://hackage.haskell.org/package/hmatrix-0.20.2	BSD-3-Clause	http://hackage.haskell.org/package/hmatrix-0.20.2/src/LICENSE
+ilist	0.4.0.1	http://hackage.haskell.org/package/ilist-0.4.0.1	MPL-2.0	http://hackage.haskell.org/package/ilist-0.4.0.1/src/LICENSE
+indexed-traversable	0.1.4	http://hackage.haskell.org/package/indexed-traversable-0.1.4	BSD-2-Clause	http://hackage.haskell.org/package/indexed-traversable-0.1.4/src/LICENSE
+indexed-traversable-instances	0.1.2	http://hackage.haskell.org/package/indexed-traversable-instances-0.1.2	BSD-2-Clause	http://hackage.haskell.org/package/indexed-traversable-instances-0.1.2/src/LICENSE
+integer-gmp	1.1	http://hackage.haskell.org/package/integer-gmp-1.1	BSD-3-Clause	http://hackage.haskell.org/package/integer-gmp-1.1/src/LICENSE
+integer-logarithms	1.0.4	http://hackage.haskell.org/package/integer-logarithms-1.0.4	MIT	http://hackage.haskell.org/package/integer-logarithms-1.0.4/src/LICENSE
+invariant	0.6.4	http://hackage.haskell.org/package/invariant-0.6.4	BSD-2-Clause	http://hackage.haskell.org/package/invariant-0.6.4/src/LICENSE
+kan-extensions	5.2.6	http://hackage.haskell.org/package/kan-extensions-5.2.6	BSD-3-Clause	http://hackage.haskell.org/package/kan-extensions-5.2.6/src/LICENSE
+lens	5.3.3	http://hackage.haskell.org/package/lens-5.3.3	BSD-2-Clause	http://hackage.haskell.org/package/lens-5.3.3/src/LICENSE
+linear-base	0.4.0	http://hackage.haskell.org/package/linear-base-0.4.0	MIT	http://hackage.haskell.org/package/linear-base-0.4.0/src/LICENSE
+linear-generics	0.2.3	http://hackage.haskell.org/package/linear-generics-0.2.3	BSD-3-Clause	http://hackage.haskell.org/package/linear-generics-0.2.3/src/LICENSE
+list-t	1.0.5.7	http://hackage.haskell.org/package/list-t-1.0.5.7	MIT	http://hackage.haskell.org/package/list-t-1.0.5.7/src/LICENSE
+logict	0.8.2.0	http://hackage.haskell.org/package/logict-0.8.2.0	BSD-3-Clause	http://hackage.haskell.org/package/logict-0.8.2.0/src/LICENSE
+massiv	1.0.4.0	http://hackage.haskell.org/package/massiv-1.0.4.0	BSD-3-Clause	http://hackage.haskell.org/package/massiv-1.0.4.0/src/LICENSE
+math-functions	0.3.4.4	http://hackage.haskell.org/package/math-functions-0.3.4.4	BSD-2-Clause	http://hackage.haskell.org/package/math-functions-0.3.4.4/src/LICENSE
+megaparsec	9.7.0	http://hackage.haskell.org/package/megaparsec-9.7.0	BSD-2-Clause	http://hackage.haskell.org/package/megaparsec-9.7.0/src/LICENSE.md
+mmorph	1.2.0	http://hackage.haskell.org/package/mmorph-1.2.0	BSD-3-Clause	http://hackage.haskell.org/package/mmorph-1.2.0/src/LICENSE
+monad-control	1.0.3.1	http://hackage.haskell.org/package/monad-control-1.0.3.1	BSD-3-Clause	http://hackage.haskell.org/package/monad-control-1.0.3.1/src/LICENSE
+monad-memo	0.5.4	http://hackage.haskell.org/package/monad-memo-0.5.4	BSD-3-Clause	http://hackage.haskell.org/package/monad-memo-0.5.4/src/LICENSE
+mono-traversable	1.0.21.0	http://hackage.haskell.org/package/mono-traversable-1.0.21.0	MIT	http://hackage.haskell.org/package/mono-traversable-1.0.21.0/src/LICENSE
+mtl	2.3.1	http://hackage.haskell.org/package/mtl-2.3.1	BSD-3-Clause	http://hackage.haskell.org/package/mtl-2.3.1/src/LICENSE
+mutable-containers	0.3.4.1	http://hackage.haskell.org/package/mutable-containers-0.3.4.1	MIT	http://hackage.haskell.org/package/mutable-containers-0.3.4.1/src/LICENSE
+mwc-random	0.15.1.0	http://hackage.haskell.org/package/mwc-random-0.15.1.0	BSD-2-Clause	http://hackage.haskell.org/package/mwc-random-0.15.1.0/src/LICENSE
+os-string	2.0.7	http://hackage.haskell.org/package/os-string-2.0.7	BSD-3-Clause	http://hackage.haskell.org/package/os-string-2.0.7/src/LICENSE
+parallel	3.2.2.0	http://hackage.haskell.org/package/parallel-3.2.2.0	BSD-3-Clause	http://hackage.haskell.org/package/parallel-3.2.2.0/src/LICENSE
+parsec	3.1.17.0	http://hackage.haskell.org/package/parsec-3.1.17.0	BSD-2-Clause	http://hackage.haskell.org/package/parsec-3.1.17.0/src/LICENSE
+parsers	0.12.12	http://hackage.haskell.org/package/parsers-0.12.12	BSD-3-Clause	http://hackage.haskell.org/package/parsers-0.12.12/src/LICENSE
+parser-combinators	1.3.0	http://hackage.haskell.org/package/parser-combinators-1.3.0	BSD-3-Clause	http://hackage.haskell.org/package/parser-combinators-1.3.0/src/LICENSE.md
+prettyprinter	1.7.1	http://hackage.haskell.org/package/prettyprinter-1.7.1	BSD-2-Clause	http://hackage.haskell.org/package/prettyprinter-1.7.1/src/LICENSE.md
+prettyprinter-ansi-terminal	1.1.3	http://hackage.haskell.org/package/prettyprinter-ansi-terminal-1.1.3	BSD-2-Clause	http://hackage.haskell.org/package/prettyprinter-ansi-terminal-1.1.3/src/LICENSE.md
+pretty	1.1.3.6	http://hackage.haskell.org/package/pretty-1.1.3.6	BSD-3-Clause	http://hackage.haskell.org/package/pretty-1.1.3.6/src/LICENSE
+primitive	0.9.0.0	http://hackage.haskell.org/package/primitive-0.9.0.0	BSD-3-Clause	http://hackage.haskell.org/package/primitive-0.9.0.0/src/LICENSE
+process	1.6.25.0	http://hackage.haskell.org/package/process-1.6.25.0	BSD-3-Clause	http://hackage.haskell.org/package/process-1.6.25.0/src/LICENSE
+profunctors	5.6.2	http://hackage.haskell.org/package/profunctors-5.6.2	BSD-3-Clause	http://hackage.haskell.org/package/profunctors-5.6.2/src/LICENSE
+psqueues	0.2.8.0	http://hackage.haskell.org/package/psqueues-0.2.8.0	BSD-3-Clause	http://hackage.haskell.org/package/psqueues-0.2.8.0/src/LICENSE
+pvar	1.0.0.0	http://hackage.haskell.org/package/pvar-1.0.0.0	BSD-3-Clause	http://hackage.haskell.org/package/pvar-1.0.0.0/src/LICENSE
+random	1.2.1.3	http://hackage.haskell.org/package/random-1.2.1.3	BSD-3-Clause	http://hackage.haskell.org/package/random-1.2.1.3/src/LICENSE
+reducers	3.12.5	http://hackage.haskell.org/package/reducers-3.12.5	BSD-3-Clause	http://hackage.haskell.org/package/reducers-3.12.5/src/LICENSE
+reflection	2.1.9	http://hackage.haskell.org/package/reflection-2.1.9	BSD-3-Clause	http://hackage.haskell.org/package/reflection-2.1.9/src/LICENSE
+regex-base	0.94.0.2	http://hackage.haskell.org/package/regex-base-0.94.0.2	BSD-3-Clause	http://hackage.haskell.org/package/regex-base-0.94.0.2/src/LICENSE
+regex-tdfa	1.3.2.2	http://hackage.haskell.org/package/regex-tdfa-1.3.2.2	BSD-3-Clause	http://hackage.haskell.org/package/regex-tdfa-1.3.2.2/src/LICENSE
+safe-exceptions	0.1.7.4	http://hackage.haskell.org/package/safe-exceptions-0.1.7.4	MIT	http://hackage.haskell.org/package/safe-exceptions-0.1.7.4/src/LICENSE
+scheduler	2.0.0.1	http://hackage.haskell.org/package/scheduler-2.0.0.1	BSD-3-Clause	http://hackage.haskell.org/package/scheduler-2.0.0.1/src/LICENSE
+scientific	0.3.8.0	http://hackage.haskell.org/package/scientific-0.3.8.0	BSD-3-Clause	http://hackage.haskell.org/package/scientific-0.3.8.0/src/LICENSE
+semialign	1.3.1	http://hackage.haskell.org/package/semialign-1.3.1	BSD-3-Clause	http://hackage.haskell.org/package/semialign-1.3.1/src/LICENSE
+semigroupoids	6.0.1	http://hackage.haskell.org/package/semigroupoids-6.0.1	BSD-2-Clause	http://hackage.haskell.org/package/semigroupoids-6.0.1/src/LICENSE
+semigroups	0.20	http://hackage.haskell.org/package/semigroups-0.20	BSD-3-Clause	http://hackage.haskell.org/package/semigroups-0.20/src/LICENSE
+splitmix	0.1.1	http://hackage.haskell.org/package/splitmix-0.1.1	BSD-3-Clause	http://hackage.haskell.org/package/splitmix-0.1.1/src/LICENSE
+split	0.2.5	http://hackage.haskell.org/package/split-0.2.5	BSD-3-Clause	http://hackage.haskell.org/package/split-0.2.5/src/LICENSE
+stm	2.5.3.1	http://hackage.haskell.org/package/stm-2.5.3.1	BSD-3-Clause	http://hackage.haskell.org/package/stm-2.5.3.1/src/LICENSE
+storable-complex	0.2.3.0	http://hackage.haskell.org/package/storable-complex-0.2.3.0	BSD-3-Clause	http://hackage.haskell.org/package/storable-complex-0.2.3.0/src/LICENSE
+storable-record	0.0.7	http://hackage.haskell.org/package/storable-record-0.0.7	BSD-3-Clause	http://hackage.haskell.org/package/storable-record-0.0.7/src/LICENSE
+storable-tuple	0.1	http://hackage.haskell.org/package/storable-tuple-0.1	BSD-3-Clause	http://hackage.haskell.org/package/storable-tuple-0.1/src/LICENSE
+strict	0.5.1	http://hackage.haskell.org/package/strict-0.5.1	BSD-3-Clause	http://hackage.haskell.org/package/strict-0.5.1/src/LICENSE
+strict-lens	0.4.1	http://hackage.haskell.org/package/strict-lens-0.4.1	BSD-3-Clause	http://hackage.haskell.org/package/strict-lens-0.4.1/src/LICENSE
+tagged	0.8.9	http://hackage.haskell.org/package/tagged-0.8.9	BSD-3-Clause	http://hackage.haskell.org/package/tagged-0.8.9/src/LICENSE
+template-haskell	2.21.0.0	http://hackage.haskell.org/package/template-haskell-2.21.0.0	BSD-3-Clause	http://hackage.haskell.org/package/template-haskell-2.21.0.0/src/LICENSE
+text	2.1.1	http://hackage.haskell.org/package/text-2.1.1	BSD-2-Clause	http://hackage.haskell.org/package/text-2.1.1/src/LICENSE
+tf-random	0.5	http://hackage.haskell.org/package/tf-random-0.5	BSD-3-Clause	http://hackage.haskell.org/package/tf-random-0.5/src/LICENSE
+these	1.2.1	http://hackage.haskell.org/package/these-1.2.1	BSD-3-Clause	http://hackage.haskell.org/package/these-1.2.1/src/LICENSE
+these-lens	1.0.2	http://hackage.haskell.org/package/these-lens-1.0.2	BSD-3-Clause	http://hackage.haskell.org/package/these-lens-1.0.2/src/LICENSE
+th-abstraction	0.7.1.0	http://hackage.haskell.org/package/th-abstraction-0.7.1.0	ISC	http://hackage.haskell.org/package/th-abstraction-0.7.1.0/src/LICENSE
+time	1.12.2	http://hackage.haskell.org/package/time-1.12.2	BSD-2-Clause	http://hackage.haskell.org/package/time-1.12.2/src/LICENSE
+transformers	0.6.1.0	http://hackage.haskell.org/package/transformers-0.6.1.0	BSD-3-Clause	http://hackage.haskell.org/package/transformers-0.6.1.0/src/LICENSE
+transformers-base	0.4.6	http://hackage.haskell.org/package/transformers-base-0.4.6	BSD-3-Clause	http://hackage.haskell.org/package/transformers-base-0.4.6/src/LICENSE
+transformers-compat	0.7.2	http://hackage.haskell.org/package/transformers-compat-0.7.2	BSD-3-Clause	http://hackage.haskell.org/package/transformers-compat-0.7.2/src/LICENSE
+trifecta	2.1.4	http://hackage.haskell.org/package/trifecta-2.1.4	BSD-3-Clause	http://hackage.haskell.org/package/trifecta-2.1.4/src/LICENSE
+unboxing-vector	0.2.0.0	http://hackage.haskell.org/package/unboxing-vector-0.2.0.0	BSD-3-Clause	http://hackage.haskell.org/package/unboxing-vector-0.2.0.0/src/LICENSE
+unix	2.8.6.0	http://hackage.haskell.org/package/unix-2.8.6.0	BSD-3-Clause	http://hackage.haskell.org/package/unix-2.8.6.0/src/LICENSE
+unliftio-core	0.2.1.0	http://hackage.haskell.org/package/unliftio-core-0.2.1.0	MIT	http://hackage.haskell.org/package/unliftio-core-0.2.1.0/src/LICENSE
+unordered-containers	0.2.20	http://hackage.haskell.org/package/unordered-containers-0.2.20	BSD-3-Clause	http://hackage.haskell.org/package/unordered-containers-0.2.20/src/LICENSE
+utf8-string	1.0.2	http://hackage.haskell.org/package/utf8-string-1.0.2	BSD-3-Clause	http://hackage.haskell.org/package/utf8-string-1.0.2/src/LICENSE
+utility-ht	0.0.17.2	http://hackage.haskell.org/package/utility-ht-0.0.17.2	BSD-3-Clause	http://hackage.haskell.org/package/utility-ht-0.0.17.2/src/LICENSE
+vector	0.13.2.0	http://hackage.haskell.org/package/vector-0.13.2.0	BSD-3-Clause	http://hackage.haskell.org/package/vector-0.13.2.0/src/LICENSE
+vector-algorithms	0.9.0.3	http://hackage.haskell.org/package/vector-algorithms-0.9.0.3	BSD-3-Clause	http://hackage.haskell.org/package/vector-algorithms-0.9.0.3/src/LICENSE
+vector-split	1.0.0.3	http://hackage.haskell.org/package/vector-split-1.0.0.3	MIT	http://hackage.haskell.org/package/vector-split-1.0.0.3/src/LICENSE
+vector-stream	0.1.0.1	http://hackage.haskell.org/package/vector-stream-0.1.0.1	BSD-3-Clause	http://hackage.haskell.org/package/vector-stream-0.1.0.1/src/LICENSE
+vector-th-unbox	0.2.2	http://hackage.haskell.org/package/vector-th-unbox-0.2.2	BSD-3-Clause	http://hackage.haskell.org/package/vector-th-unbox-0.2.2/src/LICENSE
+void	0.7.3	http://hackage.haskell.org/package/void-0.7.3	BSD-3-Clause	http://hackage.haskell.org/package/void-0.7.3/src/LICENSE
+wide-word	0.1.6.0	http://hackage.haskell.org/package/wide-word-0.1.6.0	BSD-2-Clause	http://hackage.haskell.org/package/wide-word-0.1.6.0/src/LICENSE
+witherable	0.5	http://hackage.haskell.org/package/witherable-0.5	BSD-3-Clause	http://hackage.haskell.org/package/witherable-0.5/src/LICENSE
+xhtml	3000.2.2.1	http://hackage.haskell.org/package/xhtml-3000.2.2.1	BSD-3-Clause	http://hackage.haskell.org/package/xhtml-3000.2.2.1/src/LICENSE
