@@ -1,0 +1,46 @@
+* Submission
+
+** 作業環境
+
+- NixOS, GHC 9.8.4, Cabal 3.12.1.0
+- =cabal update= 後に実施
+
+** メモ
+
+*** =cabal.project=
+
+- コンパイルできなかったので、 =clock= から =llvm= フラグを削除した
+
+*** =submisson.cabal=
+
+- 追加の依存
+  - =ac-library-hs=
+  - =hmatrix=
+  - =ilist=
+  - =monad-memo=
+  - =vector-split=
+  - =wide-word=
+  - =witherable=
+
+- Transitive dependencies の追加
+  - 多数
+
+- バージョン未指定の状態でビルドし、 =plan.json= を下にバージョンを更新
+
+*** [[./gen/license-report.md]]
+
+- =cabal-plan license-report= により生成
+- [[./generate.sh]] により[[./license-report-parsed.txt]] より [[./license-report-parsed-libraries.txt]] を生成
+
+*** [[./gen/installscript.toml]]
+
+- GHC のライセンス
+  - https://www.haskell.org/ghc/license.html
+  - [[https://opensource.org/license/bsd-3-clause][BSD-3-Clause]] と中身はほぼ同一なため、 BSD-3-Clause として良さそう
+
+- 依存ライブラリのライセンス
+  - =plan.json= を下に機械的に生成
+
+- その他
+  - BLAS 等も明示が必要？　未確認
+
