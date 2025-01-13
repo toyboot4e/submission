@@ -26,6 +26,7 @@ executable main
                   Cabal,
                   Cabal-syntax,
                   QuickCheck,
+                  ac-library-hs,
                   adjunctions,
                   array,
                   attoparsec,
@@ -50,6 +51,8 @@ executable main
                   ghc-prim,
                   hashable,
                   heaps,
+                  hmatrix,
+                  ilist,
                   indexed-traversable,
                   indexed-traversable-instances,
                   integer-gmp,
@@ -60,6 +63,7 @@ executable main
                   list-t,
                   massiv,
                   megaparsec,
+                  monad-memo,
                   mono-traversable,
                   mtl,
                   mutable-containers,
@@ -98,8 +102,11 @@ executable main
                   utility-ht,
                   vector,
                   vector-algorithms,
+                  vector-split,
                   vector-stream,
                   vector-th-unbox,
+                  wide-word,
+                  witherable,
                   xhtml
 
     hs-source-dirs:   app
