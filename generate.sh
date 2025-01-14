@@ -5,6 +5,7 @@
 
 # <package> <version> <package-url> <license> <license-url> 形式を生成
 # $1        $2        $3            $4        $5
+# なぜか attoparsec は 2 つあるので uniq しておく
 cat gen/license-report.md |
   grep '^|' |
   awk -F'|' '{print $2 "\t" $3 "\t" $4}' |
@@ -14,6 +15,7 @@ cat gen/license-report.md |
   grep -v Name |
   grep -v '\---' |
   sort -V |
+  uniq |
   tee gen/license-report-parsed.txt > /dev/null
 
 # 以下の形式を生成

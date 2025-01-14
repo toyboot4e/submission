@@ -162,9 +162,6 @@ library.atomic-primops = { license = [
 library.attoparsec = { license = [
     { name = 'attoparsec', url = 'http://hackage.haskell.org/package/attoparsec-0.14.4/src/LICENSE' },
 ], version = '0.14.4' }
-library.attoparsec = { license = [
-    { name = 'attoparsec', url = 'http://hackage.haskell.org/package/attoparsec-0.14.4/src/LICENSE' },
-], version = '0.14.4' }
 library.base = { license = [
     { name = 'base', url = 'http://hackage.haskell.org/package/base-4.19.2.0/src/LICENSE' },
 ], version = '4.19.2.0' }
@@ -307,8 +304,8 @@ library.logict = { license = [
     { name = 'logict', url = 'http://hackage.haskell.org/package/logict-0.8.2.0/src/LICENSE' },
 ], version = '0.8.2.0' }
 library.massiv = { license = [
-    { name = 'massiv', url = 'http://hackage.haskell.org/package/massiv-1.0.4.0/src/LICENSE' },
-], version = '1.0.4.0' }
+    { name = 'massiv', url = 'http://hackage.haskell.org/package/massiv-1.0.4.1/src/LICENSE' },
+], version = '1.0.4.1' }
 library.math-functions = { license = [
     { name = 'math-functions', url = 'http://hackage.haskell.org/package/math-functions-0.3.4.4/src/LICENSE' },
 ], version = '0.3.4.4' }
@@ -394,8 +391,8 @@ library.safe-exceptions = { license = [
     { name = 'safe-exceptions', url = 'http://hackage.haskell.org/package/safe-exceptions-0.1.7.4/src/LICENSE' },
 ], version = '0.1.7.4' }
 library.scheduler = { license = [
-    { name = 'scheduler', url = 'http://hackage.haskell.org/package/scheduler-2.0.0.1/src/LICENSE' },
-], version = '2.0.0.1' }
+    { name = 'scheduler', url = 'http://hackage.haskell.org/package/scheduler-2.0.1.0/src/LICENSE' },
+], version = '2.0.1.0' }
 library.scientific = { license = [
     { name = 'scientific', url = 'http://hackage.haskell.org/package/scientific-0.3.8.0/src/LICENSE' },
 ], version = '0.3.8.0' }
