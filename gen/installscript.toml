@@ -253,7 +253,7 @@ library.ghc-bignum = { license = [
     { name = 'ghc-bignum', url = 'http://hackage.haskell.org/package/ghc-bignum-1.3/src/LICENSE' },
 ], version = '1.3' }
 library.ghc-boot-th = { license = [
-    { name = 'ghc-boot-th', url = '' },
+    { name = 'ghc-boot-th', url = 'https://hackage.haskell.org/package/ghc-boot-th-9.8.1/candidate/src/LICENSE' },
 ], version = '9.8.4' }
 library.ghc-prim = { license = [
     { name = 'ghc-prim', url = 'http://hackage.haskell.org/package/ghc-prim-0.11.0/src/LICENSE' },
