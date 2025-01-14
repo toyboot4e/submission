@@ -46,6 +46,9 @@ ghc-prim	0.11.0	http://hackage.haskell.org/package/ghc-prim-0.11.0	BSD-3-Clause	
 hashable	1.5.0.0	http://hackage.haskell.org/package/hashable-1.5.0.0	BSD-3-Clause	http://hackage.haskell.org/package/hashable-1.5.0.0/src/LICENSE
 heaps	0.4.1	http://hackage.haskell.org/package/heaps-0.4.1	BSD-3-Clause	http://hackage.haskell.org/package/heaps-0.4.1/src/LICENSE
 hmatrix	0.20.2	http://hackage.haskell.org/package/hmatrix-0.20.2	BSD-3-Clause	http://hackage.haskell.org/package/hmatrix-0.20.2/src/LICENSE
+hmatrix-glpk	0.19.0.0	http://hackage.haskell.org/package/hmatrix-glpk-0.19.0.0	GPL-3.0-only	http://hackage.haskell.org/package/hmatrix-glpk-0.19.0.0/src/LICENSE
+hmatrix-gsl	0.19.0.1	http://hackage.haskell.org/package/hmatrix-gsl-0.19.0.1	GPL-3.0-only	http://hackage.haskell.org/package/hmatrix-gsl-0.19.0.1/src/LICENSE
+hmatrix-special	0.19.0.0	http://hackage.haskell.org/package/hmatrix-special-0.19.0.0	GPL-3.0-only	http://hackage.haskell.org/package/hmatrix-special-0.19.0.0/src/LICENSE
 ilist	0.4.0.1	http://hackage.haskell.org/package/ilist-0.4.0.1	MPL-2.0	http://hackage.haskell.org/package/ilist-0.4.0.1/src/LICENSE
 indexed-traversable	0.1.4	http://hackage.haskell.org/package/indexed-traversable-0.1.4	BSD-2-Clause	http://hackage.haskell.org/package/indexed-traversable-0.1.4/src/LICENSE
 indexed-traversable-instances	0.1.2	http://hackage.haskell.org/package/indexed-traversable-instances-0.1.2	BSD-2-Clause	http://hackage.haskell.org/package/indexed-traversable-instances-0.1.2/src/LICENSE

@@ -142,6 +142,15 @@ library.heaps = { license = [
 library.hmatrix = { license = [
     { name = 'hmatrix', url = 'http://hackage.haskell.org/package/hmatrix-0.20.2/src/LICENSE' },
 ], version = '0.20.2' }
+library.hmatrix-glpk = { license = [
+    { name = 'hmatrix-glpk', url = 'http://hackage.haskell.org/package/hmatrix-glpk-0.19.0.0/src/LICENSE' },
+], version = '0.19.0.0' }
+library.hmatrix-gsl = { license = [
+    { name = 'hmatrix-gsl', url = 'http://hackage.haskell.org/package/hmatrix-gsl-0.19.0.1/src/LICENSE' },
+], version = '0.19.0.1' }
+library.hmatrix-special = { license = [
+    { name = 'hmatrix-special', url = 'http://hackage.haskell.org/package/hmatrix-special-0.19.0.0/src/LICENSE' },
+], version = '0.19.0.0' }
 library.ilist = { license = [
     { name = 'ilist', url = 'http://hackage.haskell.org/package/ilist-0.4.0.1/src/LICENSE' },
 ], version = '0.4.0.1' }

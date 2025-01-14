@@ -74,6 +74,9 @@ executable main
     , hashable
     , heaps
     , hmatrix
+    , hmatrix-glpk
+    , hmatrix-gsl
+    , hmatrix-special
     , ilist
     , indexed-traversable
     , indexed-traversable-instances
