@@ -32,7 +32,7 @@ executable main
     , Cabal
     , Cabal-syntax
     , QuickCheck
-    -- , ac-library-hs
+    , ac-library-hs
     , adjunctions
     , array
     , attoparsec
@@ -57,11 +57,11 @@ executable main
     , ghc-prim                       ^>=0.11.0
     , hashable
     , heaps
-    -- , hmatrix
-    -- , hmatrix-glpk
-    -- , hmatrix-gsl
-    -- , hmatrix-special
-    -- , ilist
+    , hmatrix
+    , hmatrix-glpk
+    , hmatrix-gsl
+    , hmatrix-special
+    , ilist
     , indexed-traversable
     , indexed-traversable-instances
     , integer-gmp
@@ -72,7 +72,7 @@ executable main
     , list-t
     , massiv
     , megaparsec
-    -- , monad-memo
+    , monad-memo
     , mono-traversable
     , mtl
     , mutable-containers
@@ -111,11 +111,11 @@ executable main
     , utility-ht
     , vector
     , vector-algorithms
-    -- , vector-split
+    , vector-split
     , vector-stream
     , vector-th-unbox
-    -- , wide-word
-    -- , witherable
+    , wide-word
+    , witherable
     , xhtml
 
   hs-source-dirs:   app
