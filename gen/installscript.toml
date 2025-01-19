@@ -414,9 +414,6 @@ library.strict = { license = [
 library.strict-lens = { license = [
     { name = 'strict-lens', url = 'http://hackage.haskell.org/package/strict-lens-0.4.1/src/LICENSE' },
 ],  version = '0.4.1' }
-library.system-cxx-std-lib = { license = [
-    { name = 'system-cxx-std-lib', url = 'true' },
-],  version = '1.0' }
 library.tagged = { license = [
     { name = 'tagged', url = 'http://hackage.haskell.org/package/tagged-0.8.9/src/LICENSE' },
 ],  version = '0.8.9' }
