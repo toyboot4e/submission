@@ -31,3 +31,7 @@ printf '%s\n%s' "$direct" "$indirect" | sort -V > gen/license-report-parsed.txt
 # ], indirect = true, version = 'v0.1.2' }
 cat gen/license-report-parsed.txt |
   awk -F'\t' -f generate.awk > gen/license-report-libraries.txt
+
+# 手動修正
+# - ghc-boot-th
+# - atto-parsec

@@ -34,9 +34,6 @@ library.atomic-primops = { license = [
 library.attoparsec = { license = [
     { name = 'attoparsec', url = 'http://hackage.haskell.org/package/attoparsec-0.14.4/src/LICENSE' },
 ],  version = '0.14.4' }
-library.attoparsec = { license = [
-    { name = 'attoparsec', url = 'http://hackage.haskell.org/package/attoparsec-0.14.4/src/LICENSE' },
-], indirect = true,  version = '0.14.4' }
 library.base = { license = [
     { name = 'base', url = 'http://hackage.haskell.org/package/base-4.19.2.0/src/LICENSE' },
 ],  version = '4.19.2.0' }
@@ -128,7 +125,7 @@ library.ghc-bignum = { license = [
     { name = 'ghc-bignum', url = 'http://hackage.haskell.org/package/ghc-bignum-1.3/src/LICENSE' },
 ],  version = '1.3' }
 library.ghc-boot-th = { license = [
-    { name = 'ghc-boot-th', url = 'false' },
+    { name = 'ghc-boot-th', url = 'http://hackage.haskell.org/package/ghc-boot-th-9.8.1/src/LICENSE' },
 ],  version = '9.8.4' }
 library.ghc-prim = { license = [
     { name = 'ghc-prim', url = 'http://hackage.haskell.org/package/ghc-prim-0.11.0/src/LICENSE' },
