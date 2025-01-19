@@ -5,8 +5,10 @@
 # $3: license name
 
 {
+indirect = ""
+if ($6 == "true") { indirect = "indirect = true, " }
 printf\
-  "library.%s = { license = [\n    { name = '%s', url = '%s' },\n], version = '%s' }\n",\
-    $1, $1, $5, $2
+  "library.%s = { license = [\n    { name = '%s', url = '%s' },\n], %s version = '%s' }\n",\
+    $1, $1, $5, indirect, $2
 }
 

@@ -29,35 +29,21 @@ executable main
   -- other-modules:
   -- other-extensions:
   build-depends:
-    , ac-library-hs
+    , Cabal
+    , Cabal-syntax
+    , QuickCheck
+    -- , ac-library-hs
     , adjunctions
-    , ansi-terminal
-    , ansi-terminal-types
     , array
-    , assoc
-    , atomic-primops
     , attoparsec
     , base
-    , base-orphans
     , bifunctors
     , binary
     , bitvec
-    , blaze-builder
-    , blaze-html
-    , blaze-markup
     , bytestring
-    , Cabal
-    , Cabal-syntax
-    , call-stack
-    , case-insensitive
-    , charset
-    , clock
-    , colour
     , comonad
     , containers
     , contravariant
-    , data-default
-    , data-default-class
     , deepseq
     , directory
     , distributive
@@ -65,101 +51,71 @@ executable main
     , extra
     , fgl
     , filepath
-    , fingertree
-    , foldl
     , free
-    , ghc-bignum
-    , ghc-boot-th
-    , ghc-prim
+    , ghc-bignum                     ==1.3
+    , ghc-boot-th                    ==9.8.4
+    , ghc-prim                       ^>=0.11.0
     , hashable
     , heaps
-    , hmatrix
-    , hmatrix-glpk
-    , hmatrix-gsl
-    , hmatrix-special
-    , ilist
+    -- , hmatrix
+    -- , hmatrix-glpk
+    -- , hmatrix-gsl
+    -- , hmatrix-special
+    -- , ilist
     , indexed-traversable
     , indexed-traversable-instances
     , integer-gmp
     , integer-logarithms
-    , invariant
     , kan-extensions
     , lens
     , linear-base
-    , linear-generics
     , list-t
-    , logict
     , massiv
-    , math-functions
     , megaparsec
-    , mmorph
-    , monad-control
-    , monad-memo
+    -- , monad-memo
     , mono-traversable
     , mtl
     , mutable-containers
     , mwc-random
-    , OneTuple
-    , os-string
     , parallel
     , parsec
     , parser-combinators
-    , parsers
     , pretty
-    , prettyprinter
-    , prettyprinter-ansi-terminal
     , primitive
     , process
     , profunctors
     , psqueues
-    , pvar
-    , QuickCheck
     , random
-    , reducers
     , reflection
-    , regex-base
     , regex-tdfa
     , safe-exceptions
-    , scheduler
     , scientific
     , semialign
     , semigroupoids
-    , semigroups
     , split
-    , splitmix
-    , StateVar
     , stm
-    , storable-complex
-    , storable-record
-    , storable-tuple
     , strict
     , strict-lens
     , tagged
     , template-haskell
-    , text
+    , text ^>=2.1.2
     , tf-random
-    , th-abstraction
     , these
     , these-lens
     , time
     , transformers
-    , transformers-base
-    , transformers-compat
     , trifecta
     , unboxing-vector
     , unix
-    , unliftio-core
     , unordered-containers
-    , utf8-string
     , utility-ht
     , vector
     , vector-algorithms
-    , vector-split
+    -- , vector-split
     , vector-stream
     , vector-th-unbox
-    , void
-    , wide-word
-    , witherable
+    -- , wide-word
+    -- , witherable
     , xhtml
 
   hs-source-dirs:   app
