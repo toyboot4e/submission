@@ -3,7 +3,7 @@ Cabal-syntax	3.14.2.0	http://hackage.haskell.org/package/Cabal-syntax-3.14.2.0	B
 OneTuple	0.4.2	http://hackage.haskell.org/package/OneTuple-0.4.2	BSD-3-Clause	http://hackage.haskell.org/package/OneTuple-0.4.2/src/LICENSE	true
 QuickCheck	2.15.0.1	http://hackage.haskell.org/package/QuickCheck-2.15.0.1	BSD-3-Clause	http://hackage.haskell.org/package/QuickCheck-2.15.0.1/src/LICENSE	false
 StateVar	1.2.2	http://hackage.haskell.org/package/StateVar-1.2.2	BSD-3-Clause	http://hackage.haskell.org/package/StateVar-1.2.2/src/LICENSE	true
-ac-library-hs	1.2.6.0	http://hackage.haskell.org/package/ac-library-hs-1.2.6.0	CC0-1.0	http://hackage.haskell.org/package/ac-library-hs-1.2.6.0/src/LICENSE	false
+ac-library-hs	1.3.0.0	http://hackage.haskell.org/package/ac-library-hs-1.3.0.0	CC0-1.0	http://hackage.haskell.org/package/ac-library-hs-1.3.0.0/src/LICENSE	false
 adjunctions	4.4.3	http://hackage.haskell.org/package/adjunctions-4.4.3	BSD-2-Clause	http://hackage.haskell.org/package/adjunctions-4.4.3/src/LICENSE	false
 ansi-terminal	1.1.2	http://hackage.haskell.org/package/ansi-terminal-1.1.2	BSD-3-Clause	http://hackage.haskell.org/package/ansi-terminal-1.1.2/src/LICENSE	true
 ansi-terminal-types	1.1	http://hackage.haskell.org/package/ansi-terminal-types-1.1	BSD-3-Clause	http://hackage.haskell.org/package/ansi-terminal-types-1.1/src/LICENSE	true
@@ -86,7 +86,7 @@ process	1.6.25.0	http://hackage.haskell.org/package/process-1.6.25.0	BSD-3-Claus
 profunctors	5.6.2	http://hackage.haskell.org/package/profunctors-5.6.2	BSD-3-Clause	http://hackage.haskell.org/package/profunctors-5.6.2/src/LICENSE	false
 psqueues	0.2.8.1	http://hackage.haskell.org/package/psqueues-0.2.8.1	BSD-3-Clause	http://hackage.haskell.org/package/psqueues-0.2.8.1/src/LICENSE	false
 pvar	1.0.0.0	http://hackage.haskell.org/package/pvar-1.0.0.0	BSD-3-Clause	http://hackage.haskell.org/package/pvar-1.0.0.0/src/LICENSE	true
-random	1.3.1	http://hackage.haskell.org/package/random-1.3.1	BSD-3-Clause	http://hackage.haskell.org/package/random-1.3.1/src/LICENSE	false
+random	1.2.1.3	http://hackage.haskell.org/package/random-1.2.1.3	BSD-3-Clause	http://hackage.haskell.org/package/random-1.2.1.3/src/LICENSE	false
 reducers	3.12.5	http://hackage.haskell.org/package/reducers-3.12.5	BSD-3-Clause	http://hackage.haskell.org/package/reducers-3.12.5/src/LICENSE	true
 reflection	2.1.9	http://hackage.haskell.org/package/reflection-2.1.9	BSD-3-Clause	http://hackage.haskell.org/package/reflection-2.1.9/src/LICENSE	false
 regex-base	0.94.0.3	http://hackage.haskell.org/package/regex-base-0.94.0.3	BSD-3-Clause	http://hackage.haskell.org/package/regex-base-0.94.0.3/src/LICENSE	true
