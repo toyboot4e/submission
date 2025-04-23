@@ -7,8 +7,16 @@
 {
 indirect = ""
 if ($6 == "true") { indirect = "indirect = true, " }
+
+# http://hackage.haskell.org/package/assoc-1.1.1/src/LICENSE -> https://hackage.haskell.org/package/assoc/src/LICENSE
+# ****                               ***********                    *                               *****
+ver = $2
+url = $5
+gsub("http://", "https://", url)
+gsub("-"ver, "", url)
+
 printf\
-  "library.%s = { license = [\n    { name = '%s', url = '%s' },\n], %s version = '%s' }\n",\
-    $1, $4, $5, indirect, $2
+  "library.%s = { license = [\n    { name = '%s', url = '%s' },\n], %sversion = '%s' }\n",\
+    $1, $4, url, indirect, ver
 }
 
