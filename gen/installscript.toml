@@ -125,10 +125,10 @@ license = [
 # 例:   boost = { license = [ { name = 'Boost Software License', url = 'https://www.boost.org/LICENSE_1_0.txt' } ], version = '1.86.0' }
 library.Cabal = { license = [
     { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/Cabal/src/LICENSE' },
-], version = '3.14.1.1' }
+], version = '3.14.2.0' }
 library.Cabal-syntax = { license = [
     { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/Cabal-syntax/src/LICENSE' },
-], version = '3.14.1.0' }
+], version = '3.14.2.0' }
 library.OneTuple = { license = [
     { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/OneTuple/src/LICENSE' },
 ], indirect = true, version = '0.4.2' }
@@ -140,10 +140,10 @@ library.StateVar = { license = [
 ], indirect = true, version = '1.2.2' }
 library.ac-library-hs = { license = [
     { name = 'CC0-1.0', url = 'https://hackage.haskell.org/package/ac-library-hs/src/LICENSE' },
-], version = '1.2.0.0' }
+], version = '1.3.0.0' }
 library.adjunctions = { license = [
-    { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/adjunctions/src/LICENSE' },
-], version = '4.4.2' }
+    { name = 'BSD-2-Clause', url = 'https://hackage.haskell.org/package/adjunctions/src/LICENSE' },
+], version = '4.4.3' }
 library.ansi-terminal = { license = [
     { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/ansi-terminal/src/LICENSE' },
 ], indirect = true, version = '1.1.2' }
@@ -197,7 +197,7 @@ library.case-insensitive = { license = [
 ], indirect = true, version = '1.2.1.0' }
 library.charset = { license = [
     { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/charset/src/LICENSE' },
-], indirect = true, version = '0.3.11' }
+], indirect = true, version = '0.3.12' }
 library.clock = { license = [
     { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/clock/src/LICENSE' },
 ], indirect = true, version = '0.8.4' }
@@ -215,7 +215,7 @@ library.contravariant = { license = [
 ], version = '1.5.5' }
 library.data-default = { license = [
     { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/data-default/src/LICENSE' },
-], indirect = true, version = '0.8.0.0' }
+], indirect = true, version = '0.8.0.1' }
 library.data-default-class = { license = [
     { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/data-default-class/src/LICENSE' },
 ], indirect = true, version = '0.2.0.0' }
@@ -243,6 +243,9 @@ library.filepath = { license = [
 library.fingertree = { license = [
     { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/fingertree/src/LICENSE' },
 ], indirect = true, version = '0.1.5.0' }
+library.flow = { license = [
+    { name = 'MIT', url = 'https://hackage.haskell.org/package/flow/src/LICENSE.txt' },
+], version = '2.0.0.7' }
 library.foldl = { license = [
     { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/foldl/src/LICENSE' },
 ], indirect = true, version = '1.4.18' }
@@ -296,10 +299,10 @@ library.kan-extensions = { license = [
 ], version = '5.2.6' }
 library.lens = { license = [
     { name = 'BSD-2-Clause', url = 'https://hackage.haskell.org/package/lens/src/LICENSE' },
-], version = '5.3.3' }
+], version = '5.3.4' }
 library.linear-base = { license = [
     { name = 'MIT', url = 'https://hackage.haskell.org/package/linear-base/src/LICENSE' },
-], version = '0.4.0' }
+], version = '0.5.0' }
 library.linear-generics = { license = [
     { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/linear-generics/src/LICENSE' },
 ], indirect = true, version = '0.2.3' }
@@ -365,7 +368,7 @@ library.prettyprinter-ansi-terminal = { license = [
 ], indirect = true, version = '1.1.3' }
 library.primitive = { license = [
     { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/primitive/src/LICENSE' },
-], version = '0.9.0.0' }
+], version = '0.9.1.0' }
 library.process = { license = [
     { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/process/src/LICENSE' },
 ], version = '1.6.25.0' }
@@ -389,10 +392,10 @@ library.reflection = { license = [
 ], version = '2.1.9' }
 library.regex-base = { license = [
     { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/regex-base/src/LICENSE' },
-], indirect = true, version = '0.94.0.2' }
+], indirect = true, version = '0.94.0.3' }
 library.regex-tdfa = { license = [
     { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/regex-tdfa/src/LICENSE' },
-], version = '1.3.2.2' }
+], version = '1.3.2.3' }
 library.safe-exceptions = { license = [
     { name = 'MIT', url = 'https://hackage.haskell.org/package/safe-exceptions/src/LICENSE' },
 ], version = '0.1.7.4' }
@@ -509,7 +512,7 @@ library.void = { license = [
 ], indirect = true, version = '0.7.3' }
 library.wide-word = { license = [
     { name = 'BSD-2-Clause', url = 'https://hackage.haskell.org/package/wide-word/src/LICENSE' },
-], version = '0.1.6.0' }
+], version = '0.1.7.0' }
 library.witherable = { license = [
     { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/witherable/src/LICENSE' },
 ], version = '0.5' }
@@ -589,11 +592,11 @@ executable main
     -- other-modules:
     -- other-extensions:
     build-depends:
-                  Cabal ^>=3.14.1.1,
-                  Cabal-syntax ^>=3.14.1.0,
+                  Cabal ^>=3.14.2.0,
+                  Cabal-syntax ^>=3.14.2.0,
                   QuickCheck ^>=2.15.0.1,
-                  ac-library-hs ^>=1.2.0.0,
-                  adjunctions ^>=4.4.2,
+                  ac-library-hs ^>=1.3.0.0,
+                  adjunctions ^>=4.4.3,
                   array ==0.5.8.0,
                   attoparsec ^>=0.14.4,
                   base ^>=4.19.2.0,
@@ -611,6 +614,7 @@ executable main
                   extra ^>=1.8,
                   fgl ^>=5.8.3.0,
                   filepath ^>=1.4.301.0,
+                  flow ^>=2.0.0.7,
                   free ^>=5.2,
                   ghc-bignum ==1.3,
                   ghc-boot-th ==9.8.4,
@@ -627,8 +631,8 @@ executable main
                   integer-gmp ^>=1.1,
                   integer-logarithms ^>=1.0.4,
                   kan-extensions ^>=5.2.6,
-                  lens ^>=5.3.3,
-                  linear-base ^>=0.4.0,
+                  lens ^>=5.3.4,
+                  linear-base ^>=0.5.0,
                   list-t ^>=1.0.5.7,
                   massiv ^>=1.0.4.1,
                   megaparsec ^>=9.7.0,
@@ -641,13 +645,13 @@ executable main
                   parsec ^>=3.1.18.0,
                   parser-combinators ^>=1.3.0,
                   pretty ^>=1.1.3.6,
-                  primitive ^>=0.9.0.0,
+                  primitive ^>=0.9.1.0,
                   process ^>=1.6.25.0,
                   profunctors ^>=5.6.2,
                   psqueues ^>=0.2.8.1,
                   random ^>=1.2.1.3,
                   reflection ^>=2.1.9,
-                  regex-tdfa ^>=1.3.2.2,
+                  regex-tdfa ^>=1.3.2.3,
                   safe-exceptions ^>=0.1.7.4,
                   scientific ^>=0.3.8.0,
                   semialign ^>=1.3.1,
@@ -674,7 +678,7 @@ executable main
                   vector-split ^>=1.0.0.3,
                   vector-stream ^>=0.1.0.1,
                   vector-th-unbox ^>=0.2.2,
-                  wide-word ^>=0.1.6.0,
+                  wide-word ^>=0.1.7.0,
                   witherable ^>=0.5,
                   xhtml ^>=3000.2.2.1
 
