@@ -9,6 +9,6 @@ indirect = ""
 if ($6 == "true") { indirect = "indirect = true, " }
 printf\
   "library.%s = { license = [\n    { name = '%s', url = '%s' },\n], %s version = '%s' }\n",\
-    $1, $1, $5, indirect, $2
+    $1, $4, $5, indirect, $2
 }
 
