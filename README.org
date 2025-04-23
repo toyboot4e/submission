@@ -15,17 +15,15 @@
 
 *** [[./submission.cabal]]
 
-- 追加の依存
+- 新規依存ライブラリ (2025)
   - =ac-library-hs=
+  - =flow=
   - =hmatrix=
   - =ilist=
   - =monad-memo=
   - =vector-split=
   - =wide-word=
   - =witherable=
-
-- Transitive dependencies の追加
-  - 多数 ([[https://github.com/toyboot4e/submission/commit/5e31118e57d5516d659a8284dff6b9635376a9eb][該当のコミット]])
 
 *** [[./gen/license-report.md]]
 
@@ -43,5 +41,5 @@
   - [[./generate.sh]] により生成したライセンス一覧を貼り付けた
 
 - その他
-  - BLAS 等も明示が必要？　未確認
+  - BLAS 等も明示が必要？　問い合わせはしたが返答無し
 
