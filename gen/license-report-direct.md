@@ -24,6 +24,7 @@
 | `extra` | [`1.8`](http://hackage.haskell.org/package/extra-1.8) | [`BSD-3-Clause`](http://hackage.haskell.org/package/extra-1.8/src/LICENSE) | Extra functions I use. |  |
 | `fgl` | [`5.8.3.0`](http://hackage.haskell.org/package/fgl-5.8.3.0) | [`BSD-3-Clause`](http://hackage.haskell.org/package/fgl-5.8.3.0/src/LICENSE) | Martin Erwig's Functional Graph Library |  |
 | **`filepath`** | [`1.4.301.0`](http://hackage.haskell.org/package/filepath-1.4.301.0) | [`BSD-3-Clause`](http://hackage.haskell.org/package/filepath-1.4.301.0/src/LICENSE) | Library for manipulating FilePaths in a cross platform way. | `Cabal`, `Cabal-syntax`, `directory`, `extra`, `hashable`, `lens`, `process`, `unix` |
+| `flow` | [`2.0.0.7`](http://hackage.haskell.org/package/flow-2.0.0.7) | [`MIT`](http://hackage.haskell.org/package/flow-2.0.0.7/src/LICENSE.txt) | Write more understandable Haskell. |  |
 | `free` | [`5.2`](http://hackage.haskell.org/package/free-5.2) | [`BSD-3-Clause`](http://hackage.haskell.org/package/free-5.2/src/LICENSE) | Monads for free | `adjunctions`, `kan-extensions`, `lens` |
 | **`ghc-bignum`** | [`1.3`](http://hackage.haskell.org/package/ghc-bignum-1.3) | [`BSD-3-Clause`](http://hackage.haskell.org/package/ghc-bignum-1.3/src/LICENSE) | GHC BigNum library | `base`, `bitvec`, `hashable`, `integer-gmp`, `integer-logarithms`, `linear-base` |
 | **`ghc-boot-th`** | [`9.8.4`](http://hackage.haskell.org/package/ghc-boot-th-9.8.4) |  *MISSING* | *MISSING* | `template-haskell` |

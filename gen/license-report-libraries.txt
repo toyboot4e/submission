@@ -121,6 +121,9 @@ library.filepath = { license = [
 library.fingertree = { license = [
     { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/fingertree/src/LICENSE' },
 ], indirect = true, version = '0.1.5.0' }
+library.flow = { license = [
+    { name = 'MIT', url = 'https://hackage.haskell.org/package/flow/src/LICENSE.txt' },
+], version = '2.0.0.7' }
 library.foldl = { license = [
     { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/foldl/src/LICENSE' },
 ], indirect = true, version = '1.4.18' }
