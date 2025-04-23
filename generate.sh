@@ -32,6 +32,9 @@ printf '%s\n%s' "$direct" "$indirect" | sort -V > gen/license-report-parsed.txt
 cat gen/license-report-parsed.txt |
   awk -F'\t' -f generate.awk > gen/license-report-libraries.txt
 
+# for cabal.project
+printf '%s' "$direct" | sort -V | awk -F'\t' '{print $1 " ^>=" $2}' > gen/license-report-direct-dependencies
+
 # 手動修正
 # - ghc-boot-th
 # - atto-parsec
