@@ -5,7 +5,7 @@
 help:
     @just -l
 
-# runs the benchmark
+# runs the generate script
 run:
     cabal update
     cabal build

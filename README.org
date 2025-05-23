@@ -28,7 +28,7 @@
 *** [[./gen/license-report.md]]
 
 - バージョン未指定の状態でビルドし、 =cabal-plan license-report= により生成した
-  - なぜか =attoparsec= が 2 回出現する
+  - なぜか =attoparsec= が 2 回出現する (直接・間接依存両方として出る)
 - [[./generate.sh]] により[[./gen/license-report-parsed.txt]] および [[./gen/license-report-parsed-libraries.txt]] を生成した
 
 *** [[./gen/installscript.toml]]
@@ -39,6 +39,7 @@
 
 - 依存ライブラリのライセンス
   - [[./generate.sh]] により生成したライセンス一覧を貼り付けた
+  - デュアルライセンスについては license-report および Hackage 上の表示が間違っていたので要注意
 
 - その他
   - BLAS 等も明示が必要？　問い合わせはしたが返答無し
