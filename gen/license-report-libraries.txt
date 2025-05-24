@@ -15,7 +15,7 @@ library.StateVar = { license = [
 ], indirect = true, version = '1.2.2' }
 library.ac-library-hs = { license = [
     { name = 'CC0-1.0', url = 'https://hackage.haskell.org/package/ac-library-hs/src/LICENSE' },
-], version = '1.4.0.0' }
+], version = '1.5.0.0' }
 library.adjunctions = { license = [
     { name = 'BSD-2-Clause', url = 'https://hackage.haskell.org/package/adjunctions/src/LICENSE' },
 ], version = '4.4.3' }
