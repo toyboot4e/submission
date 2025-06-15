@@ -4,8 +4,7 @@
 
 ** 作業環境
 
-- NixOS, GHC 9.8.4, Cabal 3.12.1.0
-- =cabal update= 後に実施
+NixOS, GHC 9.8.4, Cabal 3.12.1.0
 
 ** メモ
 
@@ -15,20 +14,23 @@
 
 *** [[./submission.cabal]]
 
-- 新規依存ライブラリ (2025)
-  - =ac-library-hs=
-  - =flow=
-  - =hmatrix=
-  - =ilist=
-  - =monad-memo=
-  - =vector-split=
-  - =wide-word=
-  - =witherable=
+server gen のテストでは Hackage 上の cabal を基準にするため、 GHC 内蔵の =text= とは異なるバージョンを指定した
+
+新規依存ライブラリ (2025):
+
+- =ac-library-hs=
+- =flow=
+- =hmatrix=
+- =ilist=
+- =monad-memo=
+- =vector-split=
+- =wide-word=
+- =witherable=
 
 *** [[./gen/license-report.md]]
 
 - バージョン未指定の状態でビルドし、 =cabal-plan license-report= により生成した
-  - なぜか =attoparsec= が 2 回出現する (直接・間接依存両方として出る)
+  - なぜか =attoparsec= が 2 回現れる (直接・間接依存両方として出る)
 - [[./generate.sh]] により[[./gen/license-report-parsed.txt]] および [[./gen/license-report-parsed-libraries.txt]] を生成した
 
 *** [[./gen/installscript.toml]]
@@ -39,7 +41,8 @@
 
 - 依存ライブラリのライセンス
   - [[./generate.sh]] により生成したライセンス一覧を貼り付けた
-  - デュアルライセンスについては license-report および Hackage 上の表示が間違っていたので要注意
+  - =*.cabal= 上の表記と =LICENSE= ファイルが不一致のプロジェクトがあるため要注意
+    - 今回は手動チェックした
 
 - その他
   - BLAS 等も明示が必要？　問い合わせはしたが返答無し
