@@ -15,7 +15,7 @@ library.StateVar = { license = [
 ], indirect = true, version = '1.2.2' }
 library.ac-library-hs = { license = [
     { name = 'CC0-1.0', url = 'https://hackage.haskell.org/package/ac-library-hs/src/LICENSE' },
-], version = '1.5.0.0' }
+], version = '1.5.1.0' }
 library.adjunctions = { license = [
     { name = 'BSD-2-Clause', url = 'https://hackage.haskell.org/package/adjunctions/src/LICENSE' },
 ], version = '4.4.3' }
@@ -195,7 +195,7 @@ library.logict = { license = [
 ], indirect = true, version = '0.8.2.0' }
 library.massiv = { license = [
     { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/massiv/src/LICENSE' },
-], version = '1.0.4.1' }
+], version = '1.0.5.0' }
 library.math-functions = { license = [
     { name = 'BSD-2-Clause', url = 'https://hackage.haskell.org/package/math-functions/src/LICENSE' },
 ], indirect = true, version = '0.3.4.4' }
@@ -204,7 +204,7 @@ library.megaparsec = { license = [
 ], version = '9.7.0' }
 library.mmorph = { license = [
     { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/mmorph/src/LICENSE' },
-], indirect = true, version = '1.2.0' }
+], indirect = true, version = '1.2.1' }
 library.monad-control = { license = [
     { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/monad-control/src/LICENSE' },
 ], indirect = true, version = '1.0.3.1' }
@@ -297,7 +297,7 @@ library.semigroups = { license = [
 ], indirect = true, version = '0.20' }
 library.splitmix = { license = [
     { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/splitmix/src/LICENSE' },
-], indirect = true, version = '0.1.1' }
+], indirect = true, version = '0.1.2' }
 library.split = { license = [
     { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/split/src/LICENSE' },
 ], version = '0.2.5' }
