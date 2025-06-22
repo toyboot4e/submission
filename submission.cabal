@@ -32,7 +32,7 @@ executable main
     , Cabal
     , Cabal-syntax
     , QuickCheck
-    , ac-library-hs                  ^>=1.5.1.0
+    , ac-library-hs                  ^>=1.5.2.0
     , adjunctions
     , array
     , attoparsec

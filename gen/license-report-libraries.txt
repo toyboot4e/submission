@@ -9,13 +9,13 @@ library.OneTuple = { license = [
 ], indirect = true, version = '0.4.2' }
 library.QuickCheck = { license = [
     { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/QuickCheck/src/LICENSE' },
-], version = '2.15.0.1' }
+], version = '2.16.0.0' }
 library.StateVar = { license = [
     { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/StateVar/src/LICENSE' },
 ], indirect = true, version = '1.2.2' }
 library.ac-library-hs = { license = [
     { name = 'CC0-1.0', url = 'https://hackage.haskell.org/package/ac-library-hs/src/LICENSE' },
-], version = '1.5.1.0' }
+], version = '1.5.2.0' }
 library.adjunctions = { license = [
     { name = 'BSD-2-Clause', url = 'https://hackage.haskell.org/package/adjunctions/src/LICENSE' },
 ], version = '4.4.3' }
@@ -177,10 +177,10 @@ library.invariant = { license = [
 ], indirect = true, version = '0.6.4' }
 library.kan-extensions = { license = [
     { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/kan-extensions/src/LICENSE' },
-], version = '5.2.6' }
+], version = '5.2.7' }
 library.lens = { license = [
     { name = 'BSD-2-Clause', url = 'https://hackage.haskell.org/package/lens/src/LICENSE' },
-], version = '5.3.4' }
+], version = '5.3.5' }
 library.linear-base = { license = [
     { name = 'MIT', url = 'https://hackage.haskell.org/package/linear-base/src/LICENSE' },
 ], version = '0.5.0' }
@@ -255,7 +255,7 @@ library.process = { license = [
 ], version = '1.6.25.0' }
 library.profunctors = { license = [
     { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/profunctors/src/LICENSE' },
-], version = '5.6.2' }
+], version = '5.6.3' }
 library.psqueues = { license = [
     { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/psqueues/src/LICENSE' },
 ], version = '0.2.8.1' }
@@ -384,7 +384,7 @@ library.vector-algorithms = { license = [
 ], version = '0.9.1.0' }
 library.vector-split = { license = [
     { name = 'MIT', url = 'https://hackage.haskell.org/package/vector-split/src/LICENSE' },
-], version = '1.0.0.3' }
+], version = '1.0.0.4' }
 library.vector-stream = { license = [
     { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/vector-stream/src/LICENSE' },
 ], version = '0.1.0.1' }
@@ -396,7 +396,7 @@ library.void = { license = [
 ], indirect = true, version = '0.7.3' }
 library.wide-word = { license = [
     { name = 'BSD-2-Clause', url = 'https://hackage.haskell.org/package/wide-word/src/LICENSE' },
-], version = '0.1.7.0' }
+], version = '0.1.7.1' }
 library.witherable = { license = [
     { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/witherable/src/LICENSE' },
 ], version = '0.5' }
