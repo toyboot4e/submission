@@ -42,11 +42,9 @@
           ];
 
           packages = [
-            # GHC 9.8.4
-            (haskell.compiler.ghc984.override { useLLVM = true; })
-            haskell.packages.ghc984.cabal-fmt
-            # TODO: install `cabal-plan` with `
-            # haskell.packages.ghc984.cabal-plan
+            (haskell.compiler.ghc910.override { useLLVM = true; })
+            haskell.packages.ghc910.cabal-fmt
+            # haskell.packages.ghc910.cabal-plan
           ];
         };
       });

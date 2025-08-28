@@ -120,7 +120,7 @@ executable main
     , xhtml
 
   hs-source-dirs:   app
-  default-language: GHC2021
+  default-language: GHC2024
 
   if flag(atcoder)
     cpp-options: -DATCODER
