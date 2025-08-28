@@ -9,6 +9,7 @@ help:
 run:
     cabal update
     cabal build
+    # cabal install cabal-plan -f exe -f license-report --overwrite-policy=always
     cabal-plan license-report main > gen/license-report.md
     ./generate.sh
 

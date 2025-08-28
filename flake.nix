@@ -2,7 +2,7 @@
 # https://github.com/nix-community/nix-direnv
 
 # cabal-plan は license-report 付きでインストールする方法が分からなかったので
-# 手動でビルドしています……
+# 手動で `cabal install cabal-plan -f exe -f license-report --overwrite-policy=always` しています……
 # https://github.com/haskell-hvr/cabal-plan
 
 {
