@@ -1,9 +1,9 @@
 library.Cabal = { license = [
     { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/Cabal/src/LICENSE' },
-], version = '3.14.2.0' }
+], version = '3.16.0.0' }
 library.Cabal-syntax = { license = [
     { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/Cabal-syntax/src/LICENSE' },
-], version = '3.14.2.0' }
+], version = '3.16.0.0' }
 library.OneTuple = { license = [
     { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/OneTuple/src/LICENSE' },
 ], indirect = true, version = '0.4.2' }
@@ -15,16 +15,16 @@ library.StateVar = { license = [
 ], indirect = true, version = '1.2.2' }
 library.ac-library-hs = { license = [
     { name = 'CC0-1.0', url = 'https://hackage.haskell.org/package/ac-library-hs/src/LICENSE' },
-], version = '1.5.2.0' }
+], version = '1.5.2.1' }
 library.adjunctions = { license = [
     { name = 'BSD-2-Clause', url = 'https://hackage.haskell.org/package/adjunctions/src/LICENSE' },
 ], version = '4.4.3' }
 library.ansi-terminal = { license = [
     { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/ansi-terminal/src/LICENSE' },
-], indirect = true, version = '1.1.2' }
+], indirect = true, version = '1.1.3' }
 library.ansi-terminal-types = { license = [
     { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/ansi-terminal-types/src/LICENSE' },
-], indirect = true, version = '1.1' }
+], indirect = true, version = '1.1.3' }
 library.array = { license = [
     { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/array/src/LICENSE' },
 ], version = '0.5.8.0' }
@@ -41,8 +41,8 @@ library.attoparsec = { license = [
     { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/attoparsec/src/LICENSE' },
 ], indirect = true, version = '0.14.4' }
 library.base = { license = [
-    { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/base/src/LICENSE' },
-], version = '4.19.2.0' }
+    { name = 'MISSING', url = 'false' },
+], version = '4.20.2.0' }
 library.base-orphans = { license = [
     { name = 'MIT', url = 'https://hackage.haskell.org/package/base-orphans/src/LICENSE' },
 ], indirect = true, version = '0.9.3' }
@@ -51,13 +51,13 @@ library.bifunctors = { license = [
 ], version = '5.6.2' }
 library.binary = { license = [
     { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/binary/src/LICENSE' },
-], version = '0.8.9.1' }
+], version = '0.8.9.3' }
 library.bitvec = { license = [
     { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/bitvec/src/LICENSE' },
 ], version = '1.1.5.0' }
 library.blaze-builder = { license = [
     { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/blaze-builder/src/LICENSE' },
-], indirect = true, version = '0.4.3' }
+], indirect = true, version = '0.4.4' }
 library.blaze-html = { license = [
     { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/blaze-html/src/LICENSE' },
 ], indirect = true, version = '0.9.2.0' }
@@ -66,7 +66,7 @@ library.blaze-markup = { license = [
 ], indirect = true, version = '0.8.3.0' }
 library.bytestring = { license = [
     { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/bytestring/src/LICENSE' },
-], version = '0.12.1.0' }
+], version = '0.12.2.0' }
 library.call-stack = { license = [
     { name = 'MIT', url = 'https://hackage.haskell.org/package/call-stack/src/LICENSE' },
 ], indirect = true, version = '0.4.0' }
@@ -87,28 +87,25 @@ library.comonad = { license = [
 ], version = '5.0.9' }
 library.containers = { license = [
     { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/containers/src/LICENSE' },
-], version = '0.6.8' }
+], version = '0.8' }
 library.contravariant = { license = [
     { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/contravariant/src/LICENSE' },
 ], version = '1.5.5' }
-library.data-default = { license = [
-    { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/data-default/src/LICENSE' },
-], indirect = true, version = '0.8.0.1' }
 library.data-default-class = { license = [
     { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/data-default-class/src/LICENSE' },
-], indirect = true, version = '0.2.0.0' }
+], indirect = true, version = '0.1.2.2' }
 library.deepseq = { license = [
     { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/deepseq/src/LICENSE' },
-], version = '1.5.1.0' }
+], version = '1.5.0.0' }
 library.directory = { license = [
     { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/directory/src/LICENSE' },
-], version = '1.3.8.5' }
+], version = '1.3.9.0' }
 library.distributive = { license = [
     { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/distributive/src/LICENSE' },
 ], version = '0.6.2.1' }
 library.exceptions = { license = [
     { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/exceptions/src/LICENSE' },
-], version = '0.10.7' }
+], version = '0.10.10' }
 library.extra = { license = [
     { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/extra/src/LICENSE' },
 ], version = '1.8' }
@@ -117,10 +114,13 @@ library.fgl = { license = [
 ], version = '5.8.3.0' }
 library.filepath = { license = [
     { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/filepath/src/LICENSE' },
-], version = '1.4.301.0' }
+], version = '1.5.4.0' }
+library.file-io = { license = [
+    { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/file-io/src/LICENSE' },
+], indirect = true, version = '0.1.5' }
 library.fingertree = { license = [
     { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/fingertree/src/LICENSE' },
-], indirect = true, version = '0.1.6.1' }
+], indirect = true, version = '0.1.6.2' }
 library.flow = { license = [
     { name = 'MIT', url = 'https://hackage.haskell.org/package/flow/src/LICENSE.txt' },
 ], version = '2.0.0.9' }
@@ -135,10 +135,16 @@ library.ghc-bignum = { license = [
 ], version = '1.3' }
 library.ghc-boot-th = { license = [
     { name = 'MISSING', url = 'false' },
-], version = '9.8.4' }
+], version = '9.10.2.20250817' }
+library.ghc-experimental = { license = [
+    { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/ghc-experimental/src/LICENSE' },
+], version = '9.1002.0' }
+library.ghc-internal = { license = [
+    { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/ghc-internal/src/LICENSE' },
+], version = '9.1002.0' }
 library.ghc-prim = { license = [
     { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/ghc-prim/src/LICENSE' },
-], version = '0.11.0' }
+], version = '0.12.0' }
 library.hashable = { license = [
     { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/hashable/src/LICENSE' },
 ], version = '1.5.0.0' }
@@ -225,7 +231,7 @@ library.mwc-random = { license = [
 ], version = '0.15.2.0' }
 library.os-string = { license = [
     { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/os-string/src/LICENSE' },
-], indirect = true, version = '2.0.7' }
+], indirect = true, version = '2.0.8' }
 library.parallel = { license = [
     { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/parallel/src/LICENSE' },
 ], version = '3.2.2.0' }
@@ -252,19 +258,19 @@ library.primitive = { license = [
 ], version = '0.9.1.0' }
 library.process = { license = [
     { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/process/src/LICENSE' },
-], version = '1.6.25.0' }
+], version = '1.6.26.1' }
 library.profunctors = { license = [
     { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/profunctors/src/LICENSE' },
 ], version = '5.6.3' }
 library.psqueues = { license = [
     { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/psqueues/src/LICENSE' },
-], version = '0.2.8.1' }
+], version = '0.2.8.2' }
 library.pvar = { license = [
     { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/pvar/src/LICENSE' },
 ], indirect = true, version = '1.0.0.0' }
 library.random = { license = [
     { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/random/src/LICENSE' },
-], version = '1.2.1.3' }
+], version = '1.3.1' }
 library.reducers = { license = [
     { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/reducers/src/LICENSE' },
 ], indirect = true, version = '3.12.5' }
@@ -297,7 +303,7 @@ library.semigroups = { license = [
 ], indirect = true, version = '0.20' }
 library.splitmix = { license = [
     { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/splitmix/src/LICENSE' },
-], indirect = true, version = '0.1.2' }
+], indirect = true, version = '0.1.3.1' }
 library.split = { license = [
     { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/split/src/LICENSE' },
 ], version = '0.2.5' }
@@ -327,10 +333,10 @@ library.tagged = { license = [
 ], version = '0.8.9' }
 library.template-haskell = { license = [
     { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/template-haskell/src/LICENSE' },
-], version = '2.21.0.0' }
+], version = '2.22.0.0' }
 library.text = { license = [
     { name = 'BSD-2-Clause', url = 'https://hackage.haskell.org/package/text/src/LICENSE' },
-], version = '2.1.2' }
+], version = '2.1.3' }
 library.tf-random = { license = [
     { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/tf-random/src/LICENSE' },
 ], version = '0.5' }
@@ -345,10 +351,10 @@ library.th-abstraction = { license = [
 ], indirect = true, version = '0.7.1.0' }
 library.time = { license = [
     { name = 'BSD-2-Clause', url = 'https://hackage.haskell.org/package/time/src/LICENSE' },
-], version = '1.12.2' }
+], version = '1.15' }
 library.transformers = { license = [
     { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/transformers/src/LICENSE' },
-], version = '0.6.1.0' }
+], version = '0.6.2.0' }
 library.transformers-base = { license = [
     { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/transformers-base/src/LICENSE' },
 ], indirect = true, version = '0.4.6' }
@@ -363,7 +369,7 @@ library.unboxing-vector = { license = [
 ], version = '0.2.0.0' }
 library.unix = { license = [
     { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/unix/src/LICENSE' },
-], version = '2.8.6.0' }
+], version = '2.8.7.0' }
 library.unliftio-core = { license = [
     { name = 'MIT', url = 'https://hackage.haskell.org/package/unliftio-core/src/LICENSE' },
 ], indirect = true, version = '0.2.1.0' }
@@ -402,4 +408,4 @@ library.witherable = { license = [
 ], version = '0.5' }
 library.xhtml = { license = [
     { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/xhtml/src/LICENSE' },
-], version = '3000.2.2.1' }
+], version = '3000.4.0.0' }
