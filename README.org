@@ -4,9 +4,9 @@
 
 ** 作業環境
 
-~~macOS, GHC 9.10.1, Cabal 3.12.1.0~~
++macOS, GHC 9.10.1, Cabal 3.12.1.0+
 
-開発版 GHC を使用のため、一旦 `server-gen` で生成した `license-report.md` を使っています。
+開発版 GHC を使用のため、一旦 =server-gen= で生成した =license-report.md= を使っています。
 
 ** メモ
 
@@ -16,9 +16,9 @@
 
 *** [[./submission.cabal]]
 
-+server gen のテストでは Hackage 上の cabal を基準にするため、 GHC 内蔵の =text= とは異なるバージョンを指定した+ → GHC 内蔵の =text= に戻した
++server gen のテストでは Hackage 上の cabal を基準にするため、 GHC 内蔵の =text= とは異なるバージョンを指定した+ → GHC 内蔵の =text= に戻した → cabal.project.freeze から system-cxx-std-lib=1.0 が消えた
 
-新規依存ライブラリ (2025):
+新規の直接依存ライブラリ (2025):
 
 - =ac-library-hs=
 - =flow=
@@ -45,6 +45,10 @@
   - [[./generate.sh]] により生成したライセンス一覧を貼り付けた
   - =*.cabal= 上の表記と =LICENSE= ファイルが不一致のプロジェクトがあるため要注意
     - 今回は手動チェックした
+
+- 手動編集
+  - `cabal v2-freeze` コマンドの実行をコメントアウトし、 `cabal.project.freeze` ファイルを HEREDOC により生成する
+  - `cabal.project.freeze` から `submission +atcoder` を削除した
 
 - その他
   - BLAS 等も明示が必要？　問い合わせはしたが返答無し
