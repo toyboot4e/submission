@@ -57,7 +57,7 @@ library.bitvec = { license = [
 ], version = '1.1.5.0' }
 library.blaze-builder = { license = [
     { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/blaze-builder/src/LICENSE' },
-], indirect = true, version = '0.4.4' }
+], indirect = true, version = '0.4.4.1' }
 library.blaze-html = { license = [
     { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/blaze-html/src/LICENSE' },
 ], indirect = true, version = '0.9.2.0' }
@@ -325,9 +325,6 @@ library.strict = { license = [
 library.strict-lens = { license = [
     { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/strict-lens/src/LICENSE' },
 ], version = '0.4.1' }
-library.system-cxx-std-lib = { license = [
-    { name = 'MISSING', url = 'true' },
-], version = '1.0' }
 library.tagged = { license = [
     { name = 'BSD-3-Clause', url = 'https://hackage.haskell.org/package/tagged/src/LICENSE' },
 ], version = '0.8.9' }
