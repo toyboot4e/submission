@@ -49,6 +49,11 @@
 - 手動編集
   - `cabal v2-freeze` コマンドの実行をコメントアウトし、 `cabal.project.freeze` ファイルを HEREDOC により生成する
   - `cabal.project.freeze` から `submission +atcoder` を削除した
+  - `cabal.project.freeze` に合わせて `license-report` に追加されないパッケージを追加
+    - `alex`
+    - `optparse-applicative`
+    - `tasty`
+    - (`rts` は GHC 組み込みと考えて表記無し)
 
 - その他
   - BLAS 等も明示が必要？　問い合わせはしたが返答無し
