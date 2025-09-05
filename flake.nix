@@ -10,42 +10,56 @@
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
+    nixpkgs-for-ghc.url = "github:NixOS/nixpkgs/ebe4301cbd8f81c4f8d3244b3632338bbeb6d49c";
     flake-utils.url = "github:numtide/flake-utils";
   };
 
-  outputs = { nixpkgs, flake-utils, ... }:
-    flake-utils.lib.eachDefaultSystem (system:
+  outputs =
+    {
+      nixpkgs,
+      nixpkgs-for-ghc,
+      flake-utils,
+      ...
+    }:
+    flake-utils.lib.eachDefaultSystem (
+      system:
       let
         pkgs = import nixpkgs {
           inherit system;
-	      };
+        };
+        ghcpkgs = import nixpkgs-for-ghc {
+          inherit system;
+        };
       in
       {
-        devShells.default = with pkgs; mkShell {
-          buildInputs = [
-            pkg-config
-            stack
-            cabal-install
-            # glibc
-            llvmPackages.bintools
-            # openssl
+        devShells.default =
+          with pkgs;
+          mkShell {
+            buildInputs = [
+              pkg-config
+              stack
+              cabal-install
+              # glibc
+              llvmPackages.bintools
+              # openssl
 
-            # hmatrix: https://github.com/haskell-numerics/hmatrix/blob/master/shell.nix
-            zlib
-            sundials
-            blas
-            gfortran.cc
-            liblapack
-            gsl
-            glpk
-            sundials
-          ];
+              # hmatrix: https://github.com/haskell-numerics/hmatrix/blob/master/shell.nix
+              zlib
+              sundials
+              blas
+              gfortran.cc
+              liblapack
+              gsl
+              glpk
+              sundials
+            ];
 
-          packages = [
-            (haskell.compiler.ghc910.override { useLLVM = true; })
-            haskell.packages.ghc910.cabal-fmt
-            # haskell.packages.ghc910.cabal-plan
-          ];
-        };
-      });
+            packages = [
+              (ghcpkgs.haskell.compiler.ghc984.override { useLLVM = true; })
+              ghcpkgs.haskell.packages.ghc984.cabal-fmt
+              # ghcpkgs.haskell.packages.ghc984.cabal-plan
+            ];
+          };
+      }
+    );
 }
